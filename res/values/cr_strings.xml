@@ -34,6 +34,12 @@
     <string name="display_title">Display</string>
     <string name="ui_title">User Interface</string>
 
+    <!-- Personalization Sub-Categories -->
+    <string name="spoofing_title">Spoofing</string>
+    <string name="misc_general_settings_title">Miscellaneous general settings</string>
+    <string name="misc_device_settings_title">Device settings</string>
+    <string name="misc_other_settings_title">Other miscellaneous settings</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -1284,4 +1290,42 @@
     <string name="qs_panel_style_reflected">Reflected</string>
     <string name="qs_panel_style_surround">Surround</string>
     <string name="qs_panel_style_thin">ThinLine</string>
+    
+    <!-- GMS Spoof -->
+    <string name="gms_spoof_title">Enable GMS spoof</string>
+    <string name="gms_spoof_summary">Spoof your device to pass Google Play Attestation</string>
+    <string name="entryhooks_title">Enable Keybox spoofing</string>
+    <string name="entryhooks_summary">Spoof device keybox to pass Play Integrity</string>
+    
+    <!-- Play Integrit Fix JSON Update -->
+    <string name="toast_spoofing_success">Successfully downloaded pif.json. Spoofing as %1$s for play integrity.</string>
+    <string name="toast_spoofing_failure">Failed to spoof properties.</string>
+    <string name="toast_import_success">Successfully imported pif json.</string>
+    <string name="update_pif_json_title">Update Play Integrity Fix</string>
+    <string name="update_pif_json_summary">Update PIF spoofing device, requires internet connection.</string>
+    <string name="show_pif_properties_title">Play Integrity Fix properties</string>
+    <string name="show_pif_properties_summary">Show all currently set PIF properties</string>
+    <string name="error_loading_properties">Error loading PIF properties</string>
+    
+    <!-- PIF spoofing -->
+    <string name="pif_spoofing_title">Select PIF JSON File</string>
+    <string name="pif_spoofing_summary">Pick PIF JSON file to be used for spoofing play integrity</string>
+    
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
+    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
+    <string name="use_games_spoof_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
+
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Select keybox XML file</string>
+    <string name="keybox_data_summary">Choose the keybox XML file to spoof key attestation system-wide for all apps. Click the delete button to remove the keybox data and disable spoofing</string>
+    <string name="keybox_data_cleared">XML data cleared</string>
+    <string name="keybox_invalid_file">Invalid file selected</string>
+    <string name="keybox_invalid_xml">Invalid XML: missing required data</string>
+    <string name="keybox_file_loaded">XML file loaded</string>
+    <string name="keybox_file_read_failed">Failed to read XML</string>
+
 </resources>

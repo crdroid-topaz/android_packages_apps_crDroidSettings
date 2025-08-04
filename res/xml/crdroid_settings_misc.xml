@@ -18,6 +18,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Spoof -->
+     <Preference
+        android:key="spoofing"
+        android:icon="@drawable/ic_google"
+        android:title="@string/spoofing_title"
+        android:fragment="com.crdroid.settings.fragments.misc.Spoof"/>
+
     <!-- Gaming mode -->
     <Preference
         android:key="gaming_mode"
