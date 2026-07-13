@@ -844,14 +844,6 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="display_cutout_force_fullscreen_no_apps">No apps</string>
 
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
-
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
-
     <!-- Volume panel -->
     <string name="volume_panel_category">Volume panel</string>
     <string name="volume_dialog_timeout_title">Volume panel timeout</string>
@@ -1197,14 +1189,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Floating rotate button</string>
     <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
-
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
-
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Google Play Integrity spoof</string>
-    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
 
     <!-- Captive portal -->
     <string name="captive_portal_title">Connectivity check</string>
